@@ -17,7 +17,7 @@ public class HomeController {
 	@Autowired
 	private EmployeeService employeeService;
 	
-	@PostMapping("/saveEmployee")
+	@PostMapping("/saveEmp")
 	public Employee saveEmployee(@RequestParam int salary) {
 		
 		//Employee employee = new Employee(); // null
